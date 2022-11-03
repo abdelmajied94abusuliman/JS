@@ -5,20 +5,20 @@ let operator = prompt("Enter Ther Operator please :");
     numY = Number(y);
 
 if ( operator === "+" ) {
-    console.log (numX + numY);
-    document.write (numX + numY);
+    console.log ( numX + "+" + numY + "=" + ( numX + numY));
+    document.write ( numX + "+" + numY + "=" + ( numX + numY));
 }  
 else if ( operator === "-" ) {
-    console.log (numX - numY);
-    document.write (numX - numY);
+    console.log ( numX + "-" + numY + "=" + ( numX - numY));
+    document.write ( numX + "-" + numY + "=" + ( numX - numY));
 }  
 else if ( operator === "*" ) {
-    console.log (numX * numY);
-    document.write (numX * numY);
+    console.log ( numX + "*" + numY + "=" + ( numX * numY));
+    document.write ( numX + "*" + numY + "=" + ( numX * numY));
 }  
 else if ( operator === "/" ) {
-    console.log (numX / numY);
-    document.write (numX / numY);
+    console.log ( numX + "/" + numY + "=" + ( numX / numY));
+    document.write ( numX + "/" + numY + "=" + ( numX / numY));
 }  
 else {
     document.write("You enter a wrong operation");
