@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #paraOne, #paraTwo, #paraThree {
+            background-color: rgb(189, 189, 189);
+            color: rgb(0, 37, 69);
+            display: none;
+        }
+
+        #heading {
+            background-color: rgb(189, 189, 189);
+            padding: 25px;
+            margin: 25px;
+        }
+
+        #heading a {
+            color: red;
+        }
+
+        a:last-child {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="heading">
+        <h1>What is lorem ipsum ?</h1><a href="#" id="showText1" onclick="showingTxt('paraOne','showText1','hideText1')">Show</a>
+        <p id="paraOne">In layman's terms, Lorem Ipsum is a dummy or placeholder text. It's often used in laying out print, infographics, or web design. The primary purpose of Lorem Ipsum is to create text that does not distract from the overall layout and visual hierarchy. Although the text is in Latin, it does not have any intelligible meaning. It's merely a generic text used to hold a place in a file until the actual text or visuals are created to replace it.</p><a href="#" id="hideText1" onclick="hideTxt('paraOne','showText1','hideText1')">Hide</a> 
+    </div>
+
+    <div id="heading">
+        <h1>Why do We use it ?</h1><a href="#" id="showText2" onclick="showingTxt('paraTwo','showText2','hideText2')">Show</a>
+        <p id="paraTwo">In short, we use Lorem Ipsum because it doesn’t make sense. It’s simply a placeholder, so doesn’t need to hold any meaningful messaging. Content is intended to stand out on a page. So, if a designer or client is reviewing a template and its layout, they can easily become distracted by the writing and lose focus of the design itself. It also looks and reads more natural than just repeating a phrase like ‘content here’ or ‘example content’. Adding Lorem Ipsum text simply gives a flavour of what the final page may look like.</p><a href="#" id="hideText2" onclick="hideTxt('paraTwo','showText2','hideText2')">Hide</a> 
+    </div>
+
+    <div id="heading">
+        <h1>Where does it come from ?</h1><a href="#" id="showText3" onclick="showingTxt('paraThree','showText3','hideText3')">Show</a>
+        <p id="paraThree">The text can be sourced all the way back to ancient Rome. Many of the words and phrases in today’s Lorem Ipsum copy can be found in a book on ethics from 45 BC, written by the Roman philosopher, Cicero. However, researchers believe the text wasn’t actually used as a placeholder in its current form until the 1500s. This is when a printer took the original text and scrambled its order, to make a specimen book.Even as we developed new technologies in the 20th and 21st centuries, Lorem Ipsum endured as our preferred filler text. In the 1960s, the text was printed on dry-transfer sheets and used by architects and advertisers alike. Then, in the 1980s, it was adopted into word-processing templates on desktop computers.</p><a href="#" id="hideText3"  onclick="hideTxt('paraThree','showText3','hideText3')">Hide</a> 
+    </div>
+
+    <script src="./script4.js"></script>
+</body>
+</html>
