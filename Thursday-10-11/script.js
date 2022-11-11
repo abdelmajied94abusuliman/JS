@@ -41,7 +41,7 @@ function showData() {
     (document.getElementById("userEmail").style.display = "inline-block"),
     (document.getElementById("userNumber").style.display = "inline-block");
 }
-
+ 
 function setUserData() {
   var html = "<table  border='2'>";
   for (var i = 0; i < rows.length; i++) {
